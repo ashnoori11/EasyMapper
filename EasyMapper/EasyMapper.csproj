@@ -1,8 +1,36 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
+    <Title>EasyMapper</Title>
+    <Authors>Ashkan Noori</Authors>
+    <PackageId>0aae29156e</PackageId>
+    <Version>1.0.1</Version>
+    <Description>Easy Mapper is a lightweight and easy-to-use .NET mapping library that allows you to easily map objects in your C# code. With no dependencies and no configuration needed, you can get started with Easy Mapper right away by installing it from NuGet</Description>
+    <Copyright>open source</Copyright>
+    <PackageIcon>E_AshkanNoori.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/ashnoori11/EasyMapper</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ashnoori11/EasyMapper</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageTags>.net .net_standard mapper .net_mapper easy_mapper c#_mapper</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>What's New in Easy Mapper v1.0.1:
+
+Provides simple and intuitive API for object mapping in C#.
+Supports mapping of complex object hierarchies.
+No configuration required - just install the NuGet package and start using it in your code.
+To get started with Easy Mapper, simply install the NuGet package and add a reference to it in your project. Then, use the Mapper.Map method to map objects in your code.
+
+We hope you find Easy Mapper useful in your projects, and we welcome any feedback or suggestions you may have.</PackageReleaseNotes>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\OneDrive\Desktop\E_AshkanNoori.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
